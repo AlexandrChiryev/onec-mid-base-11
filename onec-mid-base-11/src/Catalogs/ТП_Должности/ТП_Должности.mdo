@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6830490-6b46-4346-9dd1-7c16b4d55245">
+  <producedTypes>
+    <objectType typeId="4db38162-abc9-49c5-8e6d-23c1dab58a94" valueTypeId="a74b7e0b-bad0-4d33-8b1d-a8c3c3367c60"/>
+    <refType typeId="311286bd-fca9-4240-8143-480ec8f7b514" valueTypeId="65d1fae6-9075-4f95-a346-ddd13b5c4afc"/>
+    <selectionType typeId="afe0544e-a468-43cd-8708-52ca4b9acfcc" valueTypeId="67a8cc68-7d88-49bf-b6d8-8194749fb81a"/>
+    <listType typeId="22b55444-5b28-4a05-b9bf-d33b01226744" valueTypeId="c1467be5-740b-4544-a880-51a836cf4093"/>
+    <managerType typeId="b5fbb456-867c-41a2-b864-dc28947e2bd7" valueTypeId="c440e7bc-8919-47de-8326-8682dcd78e5e"/>
+  </producedTypes>
+  <name>ТП_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТП:Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТП_Должности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТП_Должности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>ТП:Должность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
